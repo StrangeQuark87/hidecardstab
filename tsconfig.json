@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "strict": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "ES2020",
+        "module": "ES2020",
+        "noImplicitReturns": true,
+        "outDir": "./dist/scripts",
+        "rootDir": "./scripts",
+        "typeRoots": [
+            "node_modules/@types",
+            "types"
+        ],
+        "types": [
+            "jquery",
+            "node",
+            "handlebars",
+            "@league-of-foundry-developers/foundry-vtt-types"
+        ],
+        "lib": [
+            "DOM",
+            "ES6",
+            "ES2017",
+            "ES2018",            
+        ]
+    }
+}

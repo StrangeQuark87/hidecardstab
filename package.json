@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^0.8.9-9",
+    "typescript": "^4.5.4"
+  }
+}
